@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    z-index: 3;
+}
+body {
+    background-color: #fff9ed;
+}
+#circle1 {
+    width: 60%;
+    height: 100%;
+    background-color: #f198a2;
+    border-radius: 50%;
+    position: absolute;
+    right: -17%;
+    top: -50%;
+    z-index: 1;
+}
+#circle2 {
+    width: 25%;
+    height: 50%;
+    background-color: #E39774;
+    z-index: 1;
+    position: absolute;
+    border-radius: 50%;
+    top: 75%;
+    left: -10%;
+}
+header {
+    display: flex;
+}
+.headerTxt {
+    margin-top: 8.7%;
+    margin-left: 8%;
+    font-size: 38px;
+}
+.headerTxt h1{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+    width: 200px;
+    margin-bottom: 30px;
+}
+.headerTxt p {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 350px;
+    margin-bottom: 50px;
+}
+.headerTxt p a {
+    text-decoration: none;
+    color: #d3848c;
+    font-weight: 800;
+}
+.headerTxt #opdrachtButton {
+    font-size: 30px;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #f198a2;
+    color: white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.headerTxt #opdrachtButton:hover {
+    animation: buttonColorFade 0.4s;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+}
+header img {
+    width: 750px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    margin-left: auto;
+    z-index: 2;
+    margin-top: 7%;
+    margin-right: 8%;
+}
+section h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin-top: 10%;
+    font-size: 45px;
+}
+#cardContainer {
+    display: flex;
+    justify-content: center;
+}
+.card, .card:focus {
+    margin-top: 5%;
+    background-color: white;
+    display: block;
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    border: 2px solid #f198a2;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    padding-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    margin-right: 20px;
+    margin-bottom: -10%;
+}
+.card img {
+    margin-top: -20%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.card h2 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: #d17950;
+}
+.card p {
+    width: 200px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px 0;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card button {
+    border: none;
+    background-color: #f198a2;
+    color: white;
+    padding: 7px 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.card button:hover {
+    animation: buttonColorFade 0.4s;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+}
+footer {
+    padding: 300px 30px 30px 30px;
+    background: rgb(255,249,237);
+    background: linear-gradient(180deg, rgba(255,249,237,1) 0%, rgba(241,152,162,1) 59%, rgba(211,132,140,1) 100%);
+    color: white;
+}
+@keyframes buttonColorFade {
+    to {
+        background-color: #d3848c;
+        color: black;
+    }
+}
