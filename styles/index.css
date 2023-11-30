@@ -6,6 +6,7 @@
 }
 body {
     background-color: #fff9ed;
+    overflow-x: hidden;
 }
 #circle1 {
     width: 60%;
@@ -73,6 +74,7 @@ header img {
     z-index: 2;
     margin-top: 7%;
     margin-right: 8%;
+    border-radius: 10px;
 }
 section h1 {
     text-align: center;
@@ -137,6 +139,7 @@ section h1 {
     cursor: pointer;
 }
 footer {
+    width: 100%;
     padding: 300px 30px 30px 30px;
     background: rgb(255,249,237);
     background: linear-gradient(180deg, rgba(255,249,237,1) 0%, rgba(241,152,162,1) 59%, rgba(211,132,140,1) 100%);

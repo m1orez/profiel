@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    z-index: 3;
+}
+body {
+    background-color: #fff9ed;
+    overflow-x: hidden;
+} 
+header {
+    display: flex;
+}
+#circle1 {
+    height: 80%;
+    width: 40%;
+    border: 15px solid rgb(20, 83, 69);
+    border-radius: 50%;
+    position: absolute;
+    top: 60%;
+    left: -10%;
+    z-index: -3;
+}
+header #headerGif {
+    position: absolute;
+    top: -10%;
+    left: 0;
+    width: 100%;
+    filter: brightness(0) saturate(100%) invert(66%) sepia(17%) saturate(1056%) hue-rotate(305deg) brightness(90%) contrast(83%);
+}
+header #headerImg {
+    margin: 12% 0 0 15%;
+    width: 350px;
+    height: 450px;
+    object-fit: cover;
+    border-top-right-radius: 47%;
+    border-top-left-radius: 47%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.headerTxt {
+    margin: 21% 8%;
+}
+.headerTxt h1 {
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 55px;
+    color: #d3848c;
+}
+.headerTxt p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    width: 500px;
+}
+section {
+    background-color: #d3848c;
+    height: 500px;
+    color: white;
+    padding-top: 30px;
+}
+section h1 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #633338;
+}
+#leerjaarPointContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.leerjaarPoint {
+    display: flex;
+    margin: 10px 40px;
+    width: 89%;
+}
+.leerjaarPoint img {
+    width: 30px;
+    height: 30px;
+    filter: invert(1);
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 30px;
+}
+section #leerjaar2{
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.407);
+    color: black;
+    padding: 20px 10px;
+    border: 3px solid #633338;
+    border-radius: 10px;
+}
+#introOpdracht {
+    background-color: rgba(255, 255, 255, 0);
+}
+article h3{
+    font-size: 40px;
+    color: #d3848c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+article img {
+    height: 400px;
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 5%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+#portfolio {
+    display: flex;
+}
+#portfolioText {
+    display: block;
+    width: 700px;
+    margin: 10% 13%;
+}
+article p {
+    margin-bottom: 20px;
+}
+article a {
+    text-decoration: none;
+    border: none;
+    background-color: #f198a2;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}

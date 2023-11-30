@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    z-index: 3;
+}
+body {
+    background-color: #fff9ed;
+    overflow-x: hidden;
+} 
