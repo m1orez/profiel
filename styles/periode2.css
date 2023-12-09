@@ -11,7 +11,7 @@ body {
 nav {
     width: 100%;
     padding: 2% 1% 2% 74%;
-    background-color: #d3848c;
+    background-color: black;
     border-bottom: 1px solid black;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
     position: sticky;
@@ -20,11 +20,11 @@ nav {
     z-index: 40;
 }
 nav #active {
-    border-bottom: 2px solid black;
-    background-color: #ae6970;
+    border-bottom: 2px solid #d3848c;
+    color: #d3848c;
 }
 nav a {
-    color: black;
+    color: rgb(231, 212, 212);
     text-decoration: none;
     font-size: 20px;
     padding: 0.5% 15px;
@@ -41,6 +41,14 @@ header img {
     margin: 9% 100px;
     border-radius: 20px;
 }
+header #headerGif {
+    z-index: -20;
+    position: absolute;
+    left: -19%;
+    top: 40%;
+    width: 120%;
+    filter: invert(1);
+}
 header div {
     margin-top: auto;
     margin-bottom: auto;
@@ -49,8 +57,8 @@ header div {
 header h1 {
     font-family:'Times New Roman', Times, serif;
     font-weight: 500;
-    width: 200px;
-    margin-bottom: 30px;
+    font-size: 55px;
+    color: #d3848c;
 }
 header p {
     font-size: 20px;
@@ -65,13 +73,14 @@ header a {
     border-radius: 7px;
 }
 section {
+    z-index: 6;
     background-color: #d3848c;
     width: 100%;
     border-bottom-left-radius: 50px;
 }
 section h1 {
     text-align: center;
-    padding: 20px 0;
+    padding: 40px 0;
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -85,30 +94,30 @@ section #stageplekButton {
     border: none;
     width: 150px;
     padding: 10px 10px;
-    margin: 5px;
+    margin: 20px 5px;
     color: #9f5a61;
     border-radius: 7px;
     margin-bottom: 40px; 
     border: 1px solid #9f5a61;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-#stageplekButton #activeButton {
+#stageplekButton .activeButton {
     background-color: #9f5a61;
     color: white;
 }
 #stageplekButton button:hover {
-    background-color: #ffdfe3;
     cursor: pointer;
 }
 .stagebedrijf {
     background-color: #9f5a61;
     border-top-right-radius: 50px;
-    border-bottom-left-radius: 50px;
     display: flex;
+    padding: 40px 0;
 }
 .stagebedrijf img {
     margin: 30px 50px;
     border-radius: 10px;
+    width: 600px;
 }
 .stageTxt {
     color: white;
@@ -116,4 +125,15 @@ section #stageplekButton {
     width: 600px;
     margin-top: auto;
     margin-bottom: auto;
+}
+.stageTxt p {
+    margin-bottom: 30px;
+}
+.stageTxt a {
+    background-color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 7px;
+    color: black;
+    box-shadow: none;
 }
